@@ -1,4 +1,4 @@
-package com.hansheung.mob_project
+package com.hansheung.mob_22_clean
 
 import org.junit.Test
 

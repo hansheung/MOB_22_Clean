@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MOB_Starter_App"
+rootProject.name = "MOB_22_Clean"
 include(":app")
  

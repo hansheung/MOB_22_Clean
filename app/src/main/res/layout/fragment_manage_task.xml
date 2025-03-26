@@ -6,14 +6,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".ui.manageTask.base.BaseManageTaskFragment">
+    >
 
     <EditText
         android:id="@+id/etTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:hint="Enter Title"
+        android:hint="@string/enter_title"
         style="@style/TodoApp.EditText" />
 
     <EditText
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:hint="Enter Description"
+        android:hint="@string/enter_desc"
         style="@style/TodoApp.EditText" />
 
     <com.google.android.material.button.MaterialButton

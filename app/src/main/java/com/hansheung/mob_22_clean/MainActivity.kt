@@ -1,10 +1,11 @@
-package com.hansheung.mob_project
+package com.hansheung.mob_22_clean
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.hansheung.mob_22_clean.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

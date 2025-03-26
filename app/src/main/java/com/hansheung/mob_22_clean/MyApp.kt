@@ -1,10 +1,7 @@
-package com.hansheung.mob_project
+package com.hansheung.mob_22_clean
 
 import android.app.Application
-import android.util.Log
 import dagger.hilt.android.HiltAndroidApp
-import javax.inject.Inject
-import javax.inject.Named
 
 @HiltAndroidApp
 class MyApp: Application() {

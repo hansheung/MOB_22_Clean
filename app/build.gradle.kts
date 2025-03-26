@@ -4,14 +4,15 @@ plugins {
     kotlin("kapt")
     id("androidx.navigation.safeargs.kotlin")
     id("com.google.dagger.hilt.android")
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
-    namespace = "com.hansheung.mob_project"
+    namespace = "com.hansheung.mob_22_clean"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.hansheung.mob_project"
+        applicationId = "com.hansheung.mob_22_clean"
         minSdk = 28
         targetSdk = 35
         versionCode = 1
@@ -56,6 +57,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.fragment.ktx)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
